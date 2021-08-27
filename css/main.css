@@ -93,17 +93,20 @@ main .logos img{
 footer{
     margin-top: 130px;
     background-color:#e6e6e6;
+    
 }
 footer img{
     margin-top:40px;
     width:20%;
 }
 footer ul{
-    list-style: none;
-    
+    list-style: none;   
 }
-footer ul li{
-
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer .links li{
     text-align: center;
@@ -119,6 +122,10 @@ footer .social{
 }
 footer .social li img{
    width:100%;
+}
+footer ul li:hover{
+    cursor: pointer;
+    color:#26BBA4;
 }
 @media (min-width:768px)
 {
